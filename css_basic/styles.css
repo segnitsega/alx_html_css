@@ -1,6 +1,8 @@
-.body_container{
+body.works_on_smartphone{
+    display: block;
     display: flex;
     flex-direction: column;
+    background-color: grey;
 }
 .main_container{
     display: flex;
@@ -10,16 +12,24 @@
 .article_container{
     display: flex;
     flex: 2;
+    flex-direction: column;
     overflow-y: auto;
+    background-color: brown;
+    
 }
 .aside_container{
     display: flex;
     flex: 1;
+    flex-direction: column;
     overflow-y: auto;
+    background-color: yellow;
+    height: 400px;;
 }
-body.works_on_smartphone {
-    display: block;
+.face_bone{
+    height: 100px;
 }
-header.face_bone{
-    height: 10px;
+.header_container{
+    display: flex;
+    color: rgb(226, 2, 2);
+    background-color: green;
 }
