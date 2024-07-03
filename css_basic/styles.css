@@ -17,3 +17,6 @@
     flex: 1;
     overflow-y: auto;
 }
+body.works_on_smartphone {
+    display: block;
+}
