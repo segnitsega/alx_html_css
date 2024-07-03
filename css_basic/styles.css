@@ -20,3 +20,6 @@
 body.works_on_smartphone {
     display: block;
 }
+header.face_bone{
+    height: 10px;
+}
