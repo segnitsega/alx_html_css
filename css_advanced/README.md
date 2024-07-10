@@ -9,11 +9,17 @@ The website features a comprehensive range of smile-related content, including t
 
 Open index.html in a web browser to view the website. 
 The homepage includes various sections such as courses, pricing, login, tutorials, and free membership.
+
 . Navigation: Use the navigation bar to browse different sections.
+
 . Courses: View the available courses.
+
 . Pricing: Check the pricing plans.
+
 . Login: Access your account.
+
 . Tutorials: Learn from smile experts.
+
 . Free Membership: Register for free to access basic content.
 
 **Features:**
@@ -27,10 +33,15 @@ Free Membership: Offers free membership with access to introductory courses.
 
 Contributions are welcome! To contribute:
 1.Fork the repository.
+
 2.Create a new branch (git checkout -b feature-branch).
+
 3.Make your changes.
+
 4.Commit your changes (git commit -m 'Add some feature').
+
 5.Push to the branch (git push origin feature-branch).
+
 6.Open a pull request.
 
 **License:**
