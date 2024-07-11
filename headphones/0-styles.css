@@ -1,8 +1,8 @@
 :root{
     --color1: white;
     --color2:  #FF6565;
+    --font-family:  Arial, sans-serif;
 }
-
 .header{
     background-image: url("images/images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
@@ -24,10 +24,14 @@
     gap: 50px;
     padding-right: 10%;
 }
+.navigations p:hover{
+    cursor: pointer;
+    color: red;
+}
 .texts{
     display: flex;
     flex-direction: column;
-    /* line-height: 5px; */
+    
 }
 #action_button{
     height: 40px;
@@ -37,12 +41,13 @@
     color: var(--color1);
     background-color: var(--color2);
     text-transform: uppercase;
-    font-family: Arial;
+    font-family: var(--font-family);
     font: bold;
     margin-top: 40px;
     margin-left: 560px;
     font-family: Arial;
-    /* font-size: large; */
+    cursor: pointer;
+    
 }
 .mini_text{
     display: flex;
@@ -50,7 +55,7 @@
     align-items: center;
     margin-top: 300px;
     margin-left: 40px;
-    font-family: Arial;
+    font-family: var(--font-family);
     font-size: large;
    
 }
@@ -63,7 +68,7 @@
 }
 .short_paragraph{
     line-height: 30px;
-    font-family: Arial;
+    font-family: var(--font-family);
     width: 700px;
     margin-left: 320px;
     margin-top: 50px;
