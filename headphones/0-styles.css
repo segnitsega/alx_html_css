@@ -16,6 +16,9 @@
     justify-content: space-between;
     padding-top: 1%;
 }
+.logo_navs img:hover{
+    cursor: pointer;
+}
 .logo{
     padding-left: 10%;
 }
@@ -33,7 +36,7 @@
     flex-direction: column;
     
 }
-#action_button{
+.action_button{
     height: 40px;
     width: 160px;
     border-radius: 6cm;
@@ -47,6 +50,10 @@
     margin-left: 560px;
     font-family: Arial;
     cursor: pointer;
+}
+.action_button:hover{
+    font-size: 1.1em;
+    background-color: #f10b0b;
     
 }
 .mini_text{
