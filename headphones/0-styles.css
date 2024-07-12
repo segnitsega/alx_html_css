@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
 :root{
     --color1: white;
     --color2:  #FF6565;
@@ -10,6 +16,12 @@
     background-size: cover; 
     height: 800px;
     color: var(--color1);
+}
+.hamburger{
+    margin-left: 10px;
+    margin-top: -10px;
+    cursor: pointer;
+    display: none;
 }
 .logo_navs{
     display: flex;
@@ -78,16 +90,50 @@
     font-family: var(--font-family);
     width: 700px;
     margin-left: 320px;
+    margin-right: 320px;
     margin-top: 50px;
-
-
 }
-#second_line{
-    margin-left: 1%;
-}
-#third_line{
-    margin-left: 2%;
-}
-#fourth_line{
-    margin-left: 20%;
+@media screen and (max-width: 600px){
+    .hamburger{
+        display: block;
+    }
+    .navigations{
+        display: none;
+    }
+    .logo{
+        width:200px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .mini_text{
+        margin-top: 230px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: var(--font-family);
+        font-size: large;
+       
+    }
+    .p_1{
+        font-size: 25px;
+    }
+    .lorem{
+        margin-left: 80px;
+    }
+    .lorem2{
+        margin-left: 100px;
+    }
+    .p_2{
+        font-size: 15px;
+    }
+    .action_button{
+        margin-left: 100px;
+        
+    }
+    .short_paragraph{
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
 }
