@@ -162,13 +162,13 @@ body{
     margin-right: 0px;
     margin-top: 270px;
     gap: 5%;
+    z-index: 1;
     
 }
 .pentagone{
     display: flex;
     height: 120px;
-    width: 250px;
-    padding-right: 100px;
+    width: 150px;
     background-color: var(--color2);
     clip-path: polygon(50% 0%,100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
@@ -179,6 +179,7 @@ body{
     margin-left: 350px;
     margin-top: -80px;
     gap: 155px;
+    z-index: 2;
 }
 .div_1{
    margin-left: -15px;
@@ -191,6 +192,7 @@ body{
 
 .div_2, .div_3, .div_4{
     margin-top: -13px;
+    margin-left: -2.5%;
 }
 .div_2 p, .div_3 p, .div_4 p{
     margin-left: -10px;
