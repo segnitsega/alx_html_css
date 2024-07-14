@@ -159,8 +159,9 @@ body{
 .pentagone_img{
     display: flex;
     margin-left: 300px;
-    margin-right: 350px;
+    margin-right: 0px;
     margin-top: 270px;
+    gap: 5%;
     
 }
 .pentagone{
@@ -168,6 +169,8 @@ body{
     height: 120px;
     width: 250px;
     padding-right: 100px;
+    background-color: var(--color2);
+    clip-path: polygon(50% 0%,100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
 
 .two_percents{
